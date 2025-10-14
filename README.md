@@ -38,7 +38,6 @@ Membuat dokumen HTML seperti berikut:
         <div class="div3">Div 3</div>
 </section>
 ```
-![Step1](ss1.png)
 
 ## CSS Float Property
 ```
@@ -58,7 +57,7 @@ Membuat dokumen HTML seperti berikut:
         }
 </style>
 ```
-![Step2](ss2.png)
+![Step1](ss1.png)
 
 ## Mengatur Clearfix Element
 ```
@@ -76,7 +75,7 @@ Membuat dokumen HTML seperti berikut:
             float: none;
         }
 ```
-![Step3](ss3.png)
+![Step3](ss2.png)
 
 # Membuat Layout Sederhana
 ## Membuat pratikum
@@ -120,6 +119,7 @@ Kemudian Tambahkan
     <p>&copy; 2021 - Universitas Pelita Bangsa</p>
 </footer>
 ```
+![Step3](ss3.png)
 Tambahkan CSS
 ```
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
@@ -154,6 +154,7 @@ header h1 {
     color: #b5b5b5;
 }
 ```
+![Step4](ss4.png)
 
 ## Membuat Navigasi
 ```
@@ -177,7 +178,7 @@ nav a:hover {
 }
 
 ```
-![Step4](ss4.png)
+![Step5](ss5.png)
 
 ## Membuat Hero Panel
 ```
@@ -211,7 +212,8 @@ Tambahkan CSS
     line-height: 25px;
 }
 ```
-## Mengatur sel data 
+![Step6](ss6.png)
+## Mengatur layout dan sidebar
 ```
 #wrapper {
     margin: 0;
@@ -293,7 +295,7 @@ Tambah CSS
     line-height: 25px;
 }
 ```
-
+![Step8](ss8.png)
 ## Mengatur Footer
 ```
 footer {
@@ -303,7 +305,7 @@ footer {
     color: #eee;
 }
 ```
-![Step6](ss6.png)
+![Step9](ss9.png)
 
 ## Menambahkan Elemen Lainnya pada main Content
 ```
@@ -391,7 +393,7 @@ box img {
     clear: both;
 }
 ```
-![Step7](ss7.png)
+![Step10](ss10.png)
 
 ## Menambahkan Content Artikel
 ```
@@ -452,105 +454,7 @@ Tambah CSS
 }
 
 ```
+![Step11](ss11.png)
 # Pertanyaan dan Tugas
-1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
-
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Data Mahasiswa</title>
-</head>
-<body>
-    <header>
-        <h1>Form Data Mahasiswa</h1>
-    </header>
-
-    <form action="proses.php" method="Post">
-        <fieldset>
-            <legend>Data Mahasiswa</legend>
-
-            <p>
-                <label for="nama">Nama</label>
-                <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap">
-            </p>
-
-            <p>
-                <label for="nim">NIM</label>
-                <input type="text" id="nim" name="nim" placeholder="Masukkan NIM">
-            </p>
-
-            <p>
-                <label>Jenis Kelamin</label>
-                <input id="jk_l" type="radio" name="kelamin" value="L">
-                <label for="jk_l">Laki-laki</label>
-                <input id="jk_p" type="radio" name="kelamin" value="P">
-                <label for="jk_p">Perempuan</label>
-            </p>
-
-            <p>
-                <label for="prodi">Program Studi</label>
-                <select id="prodi" name="prodi">
-                    <option value="ti">Teknik Informatika</option>
-                    <option value="si">Sistem Informasi</option>
-                    <option value="mi">Manajemen Informatika</option>
-                    <option value="tl">Teknik Lingkungan</option>
-                </select>
-            </p>
-
-            <p>
-                <label for="minat">Bidang Minat</label>
-                <select id="minat" name="minat[]" size="3" multiple>
-                    <option value="web">Web Development</option>
-                    <option value="mobile">Mobile Development</option>
-                    <option value="ai">Artificial Intelligence</option>
-                    <option value="data">Data Science</option>
-                    <option value="network">Computer Network</option>
-                </select>
-            </p>
-
-
-            <p>
-                <input type="submit" value="Kirim Data">
-            </p>
-        </fieldset>
-    </form>
-
-    <style>
-        form p > label {
-            display: inline-block;
-            width: 120px;
-        }
-
-        form input[type="text"],
-        form textarea,
-        form select {
-            border: 1px solid #197a43;
-            padding: 4px;
-            border-radius: 3px;
-        }
-
-        form input[type="submit"] {
-            border: 1px solid #197a43;
-            background: #197a43;
-            color: #fff;
-            font-weight: bold;
-            padding: 5px 15px;
-            cursor: pointer;
-        }
-
-        form input[type="submit"]:hover {
-            background: #145a32;
-        }
-    </style>
-</body>
-</html>
-```
-![Step8](ss8.png)
-
-
-   
 
 
