@@ -295,7 +295,7 @@ Tambah CSS
     line-height: 25px;
 }
 ```
-![Step8](ss8.png)
+![Step6](ss6.png)
 ## Mengatur Footer
 ```
 footer {
@@ -305,7 +305,7 @@ footer {
     color: #eee;
 }
 ```
-![Step9](ss9.png)
+![Step7](ss7.png)
 
 ## Menambahkan Elemen Lainnya pada main Content
 ```
@@ -393,7 +393,7 @@ box img {
     clear: both;
 }
 ```
-![Step10](ss10.png)
+![Step8](ss8.png)
 
 ## Menambahkan Content Artikel
 ```
@@ -454,7 +454,12 @@ Tambah CSS
 }
 
 ```
-![Step11](ss11.png)
+![Step9](ss9.png)
+
 # Pertanyaan dan Tugas
+## About Html
+![Step10](ss10.png)
+## Kontak HTML
+![Step11](ss11.png)
 
 
